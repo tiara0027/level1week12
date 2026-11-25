@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedding external resources</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lugrasimo&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <div class:"container">
+        <header>
+            <h1>Embedding Things</h1>
+        </header>
+        <main>
+            <!-- ai prompt to add placeholder content:inside the main,add a section with an h3 and two paragraphs about snow -->
+            <section>
+                <h3>Snow</h3>
+                <p>Snow is made when water vapor freezes into ice crystals in cold clouds. The crystals combine and fall to the ground as snowflakes.</p>
+                <p>Fresh snow reflects sunlight and creates a bright, quiet landscape. It can also provide insulation for plants and animals during winter.</p>
+            </section>
+            <section>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/qk6MeIXsUeU?si=7agwwzscATG8T0F7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <!-- if you dont want them to be near eachother just create another section  -->
+               <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2804.0210709151693!2d-75.76052097390176!3d45.34838692107244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAlgonquin%20College!5e0!3m2!1sfr!2sca!4v1795626186105!5m2!1sfr!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
